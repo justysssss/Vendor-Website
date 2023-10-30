@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="checkout-box">
+        <button id="checkout-button">Checkout</button>
+    </div>
+    <div class="container">
+        <h1>Product Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product</th>
+                    <th>Cost</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Puma White Sneakers</td>
+                    <td>₹2540.00</td>
+                    <td>
+                        <input type="number" class="quantity-input" value="5" min="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Leather Bag</td>
+                    <td>₹1500.00</td>
+                    <td>
+                        <input type="number" class="quantity-input" value="1" min="0"> 
+                    </td>
+                </tr>
+                <!-- Add more product rows as needed -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
